@@ -1,0 +1,6 @@
+to convert temp in degress Fahrenheit to Celsius: subtract 32 and multiply by .5556 
+To convert temperatures in degress Celsius to Fahrenheit, multiply by 1.8 and add 32
+formula to convert Fahrenheit to Kelvin is K=(F+459.67) * (5/9)
+formula to convert Kelvin to Fahrenheit is (K * 9/5) - 459.67
+formula to convert Celsius to Kelvin is K=C + 273.15
+formula to convert kelvin to celsius C=k-273.15
