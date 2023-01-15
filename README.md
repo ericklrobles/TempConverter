@@ -1,2 +1,2 @@
 # Temperature Converter
-Temp Converter
+Temp Converter between Celsius, Fahrenheit and Kelvin.
