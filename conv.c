@@ -23,27 +23,45 @@ int main(void)
         if(input3 == 'c'){
          new_input = ( (input2 - 32) *.55555555555 );
           printf(" %f",new_input);   
-        } 
+        }if(input3 == 'k'){
+          new_input = ( (input2 + 459.67) *.55555555555 );
+          printf(" %f", new_input);
+        } else{
+          printf("bro are you ok?!");
+        }
     }
      
 
   
   
   if(input == 'k'){
-    printf("You have chosen Kelvin am I right?\n");
+    printf("Enter the degrees in Kelvin that you would like to convert to\n");
     scanf(" %f", &input2);
-    printf("Almost Forgot! What would you like it to convert to exactly?(c/k)\n");
+    printf("Almost Forgot! What would you like it to convert to exactly?(c/f)\n");
     scanf(" %c", &input3);
-     if(input3 == 'k'){
+     if(input3 == 'c'){
+      new_input = ( (input2 - 273.15) );
+      printf(" %f", new_input);
+     }if(input3 == 'f'){
+      new_input = ( (input2 * 9/5) - 459.67);
+      printf(" %f", new_input);
      }
     
   }
   
   if(input == 'c'){
-    printf("You have chosen Celsius am I right?\n");
-  }
-  else{
-       printf("tf you doing my man?!");
+    printf("Enter how many degrees in celsisus that you want to convert to!\n");
+    scanf(" %f", &input2);
+    printf("Almost Forgot! What would you like it to convert to exactly?(k/f)\n");
+    scanf(" %c", &input3);
+    if(input3 == 'k'){
+      new_input = ( (input2 + 273.15 ) );
+    printf(" %f", new_input);
+    }if(input3 == 'f'){
+      new_input = ( (input2 * 9/5) + 32);
+      printf(" %f", new_input);
+    }
+
   }
 
     return 0;
