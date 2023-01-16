@@ -31,6 +31,11 @@ int main(void)
   
   if(input == 'k'){
     printf("You have chosen Kelvin am I right?\n");
+    scanf(" %f", &input2);
+    printf("Almost Forgot! What would you like it to convert to exactly?(c/k)\n");
+    scanf(" %c", &input3);
+     if(input3 == 'k'){
+     }
     
   }
   
