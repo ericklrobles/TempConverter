@@ -15,7 +15,7 @@ int main(void)
   printf("Enter the type of temperature measurement that you want to use (f/c/k)\n");
   scanf(" %c", &input);
 
-  if(input == 'f'){
+  if(input == 'f'){  
     printf("Now enter the degrees in Fahrenheit that you would like to convert to?\n");
     scanf(" %f", &input2);
     printf("Almost Forgot! What would you like it to convert to exactly?(c/k)\n");
@@ -26,9 +26,7 @@ int main(void)
         }if(input3 == 'k'){
           new_input = ( (input2 - 32) * 5/9 + 273.15 );
           printf(" %.2f", new_input);
-        } else{
-          printf("bro are you ok?!");
-        }
+        } 
     }
      
 
