@@ -22,10 +22,10 @@ int main(void)
     scanf(" %c", &input3);
         if(input3 == 'c'){
          new_input = ( (input2 - 32) *5/9 );
-          printf(" %f",new_input);   
+          printf(" %.2f",new_input);   
         }if(input3 == 'k'){
           new_input = ( (input2 - 32) * 5/9 + 273.15 );
-          printf(" %f", new_input);
+          printf(" %.2f", new_input);
         } else{
           printf("bro are you ok?!");
         }
@@ -41,10 +41,10 @@ int main(void)
     scanf(" %c", &input3);
      if(input3 == 'c'){
       new_input = ( (input2 - 273.15) );
-      printf(" %f", new_input);
+      printf(" %.2f", new_input);
      }if(input3 == 'f'){
       new_input = ( (input2 - 273.15) * 9/5 + 32);
-      printf(" %f", new_input);
+      printf(" %.2f", new_input);
      }
     
   }
@@ -56,10 +56,10 @@ int main(void)
     scanf(" %c", &input3);
     if(input3 == 'k'){
       new_input = ( (input2 + 273.15 ) );
-    printf(" %f", new_input);
+    printf(" %.2f", new_input);
     }if(input3 == 'f'){
       new_input = ( (input2 * 9/5) + 32);
-      printf(" %f", new_input);
+      printf(" %.2f", new_input);
     }
 
   }
