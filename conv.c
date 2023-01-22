@@ -59,7 +59,10 @@ int main(void)
       new_input = ( (input2 * 9/5) + 32);
       printf(" %.2f", new_input);
     }
+    
 
+  }else{
+    printf("ERROR PLEASE TRY AGAIN");
   }
 
     return 0;
