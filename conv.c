@@ -73,8 +73,10 @@ int main(void)
     
 
   }
-   if(input == 'f'|| input =='c'|| input == 'k');
-   break;
+   if(input == 'f'|| input =='c'|| input == 'k'){
+    break;
+   }
+   
   }
   printf("Invalid Input! Please Try Again\n");
   
