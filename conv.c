@@ -11,6 +11,8 @@ int main(void)
  float input2;
  char input3;
  float new_input;
+ char input_string[100];
+ int matches;
 
    
    
@@ -27,7 +29,12 @@ int main(void)
 
   if(input == 'f'){  
     printf("Now enter the degrees in Fahrenheit that you would like to convert to?\n");
-    scanf(" %f", &input2);
+    scanf(" %s", input_string);
+    matches = sscanf(input_string, "%f", &input2);
+    if(matches !=1){
+      break;
+    }
+
     printf("Almost Forgot! What would you like it to convert to exactly?(c/k)\n");
     scanf(" %c", &input3);
         if(input3 == 'c'){
@@ -79,6 +86,10 @@ int main(void)
    
   }
   printf("Invalid Input! Please Try Again\n");
+  
+  
+  
+ 
   
     return 0;
 }
